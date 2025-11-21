@@ -1,9 +1,10 @@
 using UnityEngine;
-using UnityEngine.Inputsystem;
+using UnityEngine.InputSystem;
 public class Animation : MonoBehaviour
 {
-    
-    InputAction.
+
+    public InputActionAsset eliasPlayerAction;
+    public Animator eliasanimator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,6 +14,13 @@ public class Animation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (eliasPlayerAction.FindAction("Move").IsPressed())
+        {
+            eliasanimator.SetBool("Running", true);
+        }
+        else
+        {
+            eliasanimator.SetBool("Running", false);
+        }
     }
 }
