@@ -8,4 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Settings/Scenes/2D URP Scene Template.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/scene.unity
+    guid: 59275411b88b9cc428866c7f66d991e6
+  - enabled: 1
+    path: Assets/Scenes/2nd_LVL.unity
+    guid: 3f31a773dc0a4f84ca85850eadfc7e32
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
